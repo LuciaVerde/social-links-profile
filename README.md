@@ -10,13 +10,12 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ### The challenge
 
-This challenge is to create a social link profile where the user can see a hover status when hovering over the social links in the profile.
+This challenge consists of creating a social links profile where the user, when hovering over each social link in the profile, sees a change in background and text color.
 
 ### Screenshots
 
@@ -29,8 +28,8 @@ This challenge is to create a social link profile where the user can see a hover
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/LuciaVerde/social-links-profile)
+- Live Site URL: [Netlify](https://sociallinksprofilelv.netlify.app/)
 
 ### Built with
 - HTML 5 
