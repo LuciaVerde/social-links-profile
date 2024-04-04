@@ -70,6 +70,11 @@ body {
   border-radius: 0.5rem;
   color: hsl(0, 0%, 100%);
 }
+.card ul li:focus-within {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: url(/assets/images/handcursor.svg) 10 10, auto;
+}
 .card ul li:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
@@ -79,6 +84,7 @@ body {
   text-decoration: none;
   color: inherit;
   cursor: inherit;
+  outline: none;
 }
 
 .attribution {

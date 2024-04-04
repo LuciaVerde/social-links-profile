@@ -59,6 +59,12 @@
             border-radius: 0.5rem;
             color: $white;
 
+            &:focus-within { 
+                background-color: $green;
+                color: $off-black;
+                cursor: url(/assets/images/handcursor.svg )10 10, auto;
+            }
+                
             &:hover {
                 background-color: $green;
                 color: $off-black;
@@ -69,6 +75,7 @@
                 text-decoration: none;
                 color: inherit;
                 cursor: inherit;
+                outline: none;
             }
         }
     }
