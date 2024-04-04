@@ -1,0 +1,93 @@
+/*colors*/
+/*font*/
+/*font-size*/
+body {
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 20rem;
+  padding: 1.7rem;
+  gap: 1.5rem;
+  border-radius: 0.6rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.card img {
+  border-radius: 6rem;
+  max-width: 5rem;
+}
+.card hgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card hgroup h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.card hgroup .place {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.card .description {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.card ul li {
+  list-style: none;
+  background-color: hsl(0, 0%, 20%);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+}
+.card ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: url(/assets/images/handcursor.svg) 10 10, auto;
+}
+.card ul li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: inherit;
+}
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */

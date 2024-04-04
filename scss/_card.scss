@@ -1,0 +1,76 @@
+.card {
+    background-color: $dark-grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20rem;
+    padding: 1.7rem;
+    gap: 1.5rem;
+    border-radius: 0.6rem;
+    font-family: $main-font;
+    text-align: center;
+
+    img {
+        border-radius: 6rem;
+        max-width: 5rem;
+    }
+
+    hgroup {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h1 {
+            color: $white;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .place {
+            color: $green;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+    }
+
+    .description {
+        color: $white;
+        font-size: $paragraph;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        font-size: $paragraph;
+        font-weight: 600;
+
+        li {
+            list-style: none;
+            background-color: $grey;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            width: 100%;
+            text-align: center;
+            border-radius: 0.5rem;
+            color: $white;
+
+            &:hover {
+                background-color: $green;
+                color: $off-black;
+                cursor: url(/assets/images/handcursor.svg )10 10, auto;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                cursor: inherit;
+            }
+        }
+    }
+
+}
